@@ -1,0 +1,6 @@
+context:
+  initializer:
+    classes: com.codersee.kotlindsl.config.BeansConfig
+spring:
+  profiles:
+    active: dev
