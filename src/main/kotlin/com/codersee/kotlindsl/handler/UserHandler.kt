@@ -75,6 +75,10 @@ class UserHandler(
       ?: notFoundResponse(id)
   }
 
+  fun uselessFunction() {
+    // useless logic
+  }
+
   fun deleteUserById(
     request: ServerRequest
   ): ServerResponse {
@@ -99,6 +103,10 @@ class UserHandler(
       .body(
         ErrorResponse("User with id: $id was not found.")
       )
+
+  private anotherUselessThingy() {
+    // another useless code
+  }
 
 }
 
